@@ -2,9 +2,9 @@
 
 [Cette page en français.](LISEZMOI.md)
 
-this repository contains slides and samples created for the "Make games in Delphi (2024 edition)" talk by Patrick Prémartin during the [Dev Days of Summer 2024](https://www.codegear.com/DevDaysofSummer/) organised by [Embarcadero](https://www.embarcadero.com).
+This repository will contain slides and samples created for the "Make games in Delphi (2024 edition)" talk by Patrick Prémartin during the [Dev Days of Summer 2024](https://www.codegear.com/DevDaysofSummer/) organised by [Embarcadero](https://www.embarcadero.com).
 
-It will b completed after the show. Please [subscribe to the event](https://www.codegear.com/DevDaysofSummer/) to attend the live session and ask your questions.
+It will be completed after the show. Please [subscribe to the event](https://www.codegear.com/DevDaysofSummer/) to attend the live session and ask your questions.
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 

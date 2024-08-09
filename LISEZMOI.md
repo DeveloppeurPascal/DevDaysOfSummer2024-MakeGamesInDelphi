@@ -2,7 +2,7 @@
 
 [This page in English.](README.md)
 
-Ce dépôt contient les slides et les exemples réalisés à l'occasion de la présentation "Make games in Delphi (2024 edition)" de Patrick Prémartin lors des [Dev Days of Summer 2024](https://www.codegear.com/DevDaysofSummer/) organisés par [Embarcadero](https://www.embarcadero.com).
+Ce dépôt contiendra les slides et les exemples réalisés à l'occasion de la présentation "Make games in Delphi (2024 edition)" de Patrick Prémartin lors des [Dev Days of Summer 2024](https://www.codegear.com/DevDaysofSummer/) organisés par [Embarcadero](https://www.embarcadero.com).
 
 Il sera complété après la présentation. Veuillez [vous inscrire sur l'événement](https://www.codegear.com/DevDaysofSummer/) pour y assister en direct et poser vos éventuelles questions.
 
