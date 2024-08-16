@@ -1,0 +1,18 @@
+inherited cadButtonClose: TcadButtonClose
+  inherited lUp: TLayout
+    inherited Rectangle2: TRectangle
+      inherited txtUp: TText
+        Text = 'Close'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inherited lDown: TLayout
+    inherited Rectangle1: TRectangle
+      inherited txtDown: TText
+        Text = 'Close'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

@@ -1,0 +1,48 @@
+inherited SceneGameOverWin: TSceneGameOverWin
+  Size.Width = 724.000000000000000000
+  Size.Height = 455.000000000000000000
+  inline cadShowMessage1: TcadShowMessage
+    Align = Center
+    Size.Width = 300.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+    inherited Rectangle1: TRectangle
+      Size.Width = 280.000000000000000000
+      Size.Height = 130.000000000000000000
+    end
+    inherited Rectangle2: TRectangle
+      Size.Width = 300.000000000000000000
+      Size.Height = 150.000000000000000000
+    end
+    inherited vsbContent: TVertScrollBox
+      Size.Width = 270.000000000000000000
+      Size.Height = 105.000000000000000000
+      Viewport.Width = 270.000000000000000000
+      Viewport.Height = 105.000000000000000000
+      inherited Text1: TText
+        Size.Width = 270.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited lButtons: TLayout
+      Position.Y = 120.000000000000000000
+      Size.Width = 270.000000000000000000
+      inherited cadButtonClose1: TcadButtonClose
+        inherited lUp: TLayout
+          inherited Rectangle2: TRectangle
+            inherited txtUp: TText
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+        end
+        inherited lDown: TLayout
+          inherited Rectangle1: TRectangle
+            inherited txtDown: TText
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+        end
+      end
+    end
+  end
+end

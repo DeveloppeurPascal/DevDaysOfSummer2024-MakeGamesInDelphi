@@ -1,0 +1,47 @@
+inherited cadShowMessage: TcadShowMessage
+  inherited Rectangle1: TRectangle
+    Locked = True
+  end
+  inherited Rectangle2: TRectangle
+    Locked = True
+  end
+  inherited vsbContent: TVertScrollBox
+    Locked = True
+    Viewport.Width = 290.000000000000000000
+    Viewport.Height = 273.000000000000000000
+    object Text1: TText
+      Align = Top
+      AutoSize = True
+      Locked = True
+      Size.Width = 290.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Leading
+    end
+  end
+  inherited lButtons: TLayout
+    Locked = True
+    inline cadButtonClose1: TcadButtonClose
+      Align = Center
+      Locked = True
+      Size.Width = 200.000000000000000000
+      Size.Height = 75.000000000000000000
+      Size.PlatformDefault = False
+      inherited lUp: TLayout
+        inherited Rectangle2: TRectangle
+          inherited txtUp: TText
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+      inherited lDown: TLayout
+        inherited Rectangle1: TRectangle
+          inherited txtDown: TText
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,24 @@
+inherited SceneSplashScreen: TSceneSplashScreen
+  object Layout1: TLayout
+    Align = Bottom
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 210.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Center
+      Fill.Color = claWhite
+      Opacity = 0.500000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+end

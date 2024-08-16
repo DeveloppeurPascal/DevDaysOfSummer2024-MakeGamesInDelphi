@@ -1,0 +1,18 @@
+inherited cadButtonCredits: TcadButtonCredits
+  inherited lUp: TLayout
+    inherited Rectangle2: TRectangle
+      inherited txtUp: TText
+        Text = 'Credits'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inherited lDown: TLayout
+    inherited Rectangle1: TRectangle
+      inherited txtDown: TText
+        Text = 'Credits'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

@@ -1,0 +1,54 @@
+object cadDialogBoxBackground: TcadDialogBoxBackground
+  Size.Width = 320.000000000000000000
+  Size.Height = 318.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Color = claSeashell
+    Opacity = 0.899999976158142100
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 298.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Rectangle2: TRectangle
+    Align = Contents
+    Fill.Kind = None
+    Size.Width = 320.000000000000000000
+    Size.Height = 318.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claLightpink
+    Stroke.Thickness = 10.000000000000000000
+    XRadius = 20.000000000000000000
+    YRadius = 30.000000000000000000
+  end
+  object vsbContent: TVertScrollBox
+    Align = Contents
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Margins.Bottom = 30.000000000000000000
+    Size.Width = 290.000000000000000000
+    Size.Height = 273.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 290.000000000000000000
+    Viewport.Height = 273.000000000000000000
+  end
+  object lButtons: TLayout
+    Align = Bottom
+    Margins.Left = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Margins.Bottom = -20.000000000000000000
+    Position.X = 15.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 290.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+  end
+end
