@@ -1,0 +1,14 @@
+Samples, PDF and slides for this talk:
+https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi
+
+Gamolf FMX Game Starter Kit: my new starter kit & game template project
+https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit
+
+Delphi Game Engine: basic features to use musics and sounds, game controllers, UI elements, scores and more to come
+https://github.com/DeveloppeurPascal/Delphi-Game-Engine
+
+Open sourced games in Delphi available on GitHub (with the "delphi-game" topic):
+https://github.com/topics/delphi-game
+
+And all my open sourced games:
+https://github.com/DeveloppeurPascal/DevPas-Games-Pack
