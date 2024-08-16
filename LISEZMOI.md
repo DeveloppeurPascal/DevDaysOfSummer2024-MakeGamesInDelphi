@@ -16,7 +16,7 @@ Ce dépôt de code contient un projet développé en langage Pascal Objet sous D
 
 ### Dev Days of Summer 2024
 
-* la rediffusion est pour bientôt
+* [Make games in Delphi (2024 edition)](https://www.youtube.com/live/M7DcEDbuESQ?feature=shared&t=3911) (diffusion en direct durant la conférence, en anglais)
 
 ### Twitch
 
