@@ -2,11 +2,63 @@
 
 [Cette page en français.](LISEZMOI.md)
 
-This repository will contain slides and samples created for the "Make games in Delphi (2024 edition)" talk by Patrick Prémartin during the [Dev Days of Summer 2024](https://www.codegear.com/DevDaysofSummer/) organised by [Embarcadero](https://www.embarcadero.com).
+This repository contains the slides ([FR](slides-FR/) / [EN](slides-EN/)), the PDF ([FR](MakeGamesInDelphi2024Edition-FR.pdf) / [EN](MakeGamesInDelphi2024Edition-EN.pdf)) and the demo video games created for the "Make games in Delphi (2024 edition)" talk by Patrick Prémartin during the [Dev Days of Summer 2024](https://www.codegear.com/DevDaysofSummer/) organised by [Embarcadero](https://www.embarcadero.com).
 
-It will be completed after the show. Please [subscribe to the event](https://www.codegear.com/DevDaysofSummer/) to attend the live session and ask your questions.
+This session was an opportunity to reiterate the importance for all developers (with or without experience) of getting involved in video game creation (for example, on [game jam](https://itch.io/jams) weekends). It's a good way to get up to speed on features that are rarely used in everyday development, and then apply these skills to "more serious" projects, which also need responsiveness and intuitive user interfaces.
+
+Several code repositories ([Delphi Game Engine](https://github.com/DeveloppeurPascal/Delphi-Game-Engine), [Gamolf FMX Game Starter Kit](https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit)) allow you to work without a game engine, but not from scratch. This leaves the developer in control of what he wants to do, while removing the monotony of basic operation: screens, translations, program and game settings, music support and use of game controllers to manipulate the user interface.
+
+Delphi lets you do it all, even games - enjoy!
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
+
+## Talks and conferences
+
+### Dev Days of Summer 2024
+
+* the replay will be released shortly
+
+### Twitch
+
+Follow my development streams of software, video games, mobile applications and websites on [my Twitch channel](https://www.twitch.tv/patrickpremartin) or as replays on [Serial Streameur](https://serialstreameur.fr/dev-days-of-summer-2024.html) mostly in French.
+
+## Sample projects
+
+### The Quiz
+
+![screen capture of a question with game controller detected](images/TheQuiz-Question-Gamepad-500x282.jpg)
+
+This program is a simple quiz game with a questions generator.
+
+Source file is available from [this folder](samples/TheQuiz).
+
+Installers are available if you want to test it without compiling the project :
+
+* [Windows 32 bits](samples-installers/DDoS2024QuizSample-Win32-setup.zip)
+* [Windows 64 bits](samples-installers/DDoS2024QuizSample-Win64-setup.zip)
+* [macOS with Intel processor](samples-installers/DDoS2024QuizSample-MacIntel.zip)
+* [macOS with Apple Silicon M1 processor and later](samples-installers/DDoS2024QuizSample-MacM1.zip)
+
+## Source code installation
+
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi).
+
+This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
+
+* [DeveloppeurPascal/AboutDialog-Delphi-Component](https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component) must be installed in the ./lib-externes/AboutDialog-Delphi-Component subfolder.
+* [DeveloppeurPascal/Delphi-Game-Engine](https://github.com/DeveloppeurPascal/Delphi-Game-Engine) must be installed in the ./lib-externes/Delphi-Game-Engine subfolder.
+* [DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit](https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit) must be installed in the ./lib-externes/Gamolf-FMX-Game-Starter-Kit subfolder.
+* [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) must be installed in the ./lib-externes/librairies subfolder.
+
+## Compatibility
+
+As an [Embarcadero MVP](https://www.embarcadero.com/resources/partners/mvp-directory), I benefit from the latest versions of [Delphi](https://www.embarcadero.com/products/delphi) and [C++ Builder](https://www.embarcadero.com/products/cbuilder) in [RAD Studio](https://www.embarcadero.com/products/rad-studio) as soon as they are released. I therefore work with these versions.
+
+Normally, my libraries and components should also run on at least the current version of [Delphi Community Edition](https://www.embarcadero.com/products/delphi/starter).
+
+There's no guarantee of compatibility with earlier versions, even though I try to keep my code clean and avoid using too many of the new ways of writing in it (type inference, inline var and multiline strings).
+
+If you detect any anomalies on earlier versions, please don't hesitate to [report them](https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi/issues) so that I can test and try to correct or provide a workaround.
 
 ## License to use this code repository and its contents
 
@@ -22,6 +74,14 @@ If this license doesn't suit your needs, you can purchase the right to use this 
 These source codes are provided as is, without warranty of any kind.
 
 Certain elements included in this repository may be subject to third-party usage rights (images, sounds, etc.). They are not reusable in your projects unless otherwise stated.
+
+## How to ask a new feature, report a bug or a security issue ?
+
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi) and [open a new issue](https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi/issues).
+
+If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
+
+You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## Support the project and its author
 
