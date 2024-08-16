@@ -46,8 +46,8 @@ uses
   System.Types;
 
 const
-  CAboutVersionNumber = '1.1';
-  CAboutVersionDate = '20240811';
+  CAboutVersionNumber = '1.2';
+  CAboutVersionDate = '20240816';
   CAboutGameTitle = 'The Quiz !!!';
   CAboutCopyright = '2024 Patrick Prémartin'; // 2024 your name or anything else
   CAboutGameURL =
