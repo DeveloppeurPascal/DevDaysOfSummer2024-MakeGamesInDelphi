@@ -7,3 +7,6 @@
 [submodule "lib-externes/Gamolf-FMX-Game-Starter-Kit"]
 	path = lib-externes/Gamolf-FMX-Game-Starter-Kit
 	url = https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit.git
+[submodule "lib-externes/librairies"]
+	path = lib-externes/librairies
+	url = https://github.com/DeveloppeurPascal/librairies.git
