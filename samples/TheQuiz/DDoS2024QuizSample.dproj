@@ -499,8 +499,8 @@
         <Icns_MainIcns>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.icns</Icns_MainIcns>
         <UWP_DelphiLogo44>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon-44x44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon-150x150.png</UWP_DelphiLogo150>
-        <VerInfo_Build>3</VerInfo_Build>
-        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.3;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=gamolf.fmxgametemplate.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0;Comments=</VerInfo_Keys>
+        <VerInfo_Build>4</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.4;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=gamolf.fmxgametemplate.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0;Comments=</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
@@ -793,7 +793,7 @@
         </DCCReference>
         <DCCReference Include="uSVGBitmapManager.pas"/>
         <DCCReference Include="..\..\assets\kenney_nl\InputPrompts\USVGInputPrompts.pas"/>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\_AncestorsForScenesAndUIElements\_ScenesAncestor.pas">
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\_ScenesAncestor.pas">
             <Form>__SceneAncestor</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>

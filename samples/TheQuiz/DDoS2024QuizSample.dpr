@@ -97,7 +97,7 @@ uses
   fMain in '..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\fMain.pas' {frmMain},
   uSVGBitmapManager in 'uSVGBitmapManager.pas',
   USVGInputPrompts in '..\..\assets\kenney_nl\InputPrompts\USVGInputPrompts.pas',
-  _ScenesAncestor in '..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\_AncestorsForScenesAndUIElements\_ScenesAncestor.pas' {__SceneAncestor: TFrame};
+  _ScenesAncestor in '..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\_ScenesAncestor.pas' {__SceneAncestor: TFrame};
 
 {$R *.res}
 
