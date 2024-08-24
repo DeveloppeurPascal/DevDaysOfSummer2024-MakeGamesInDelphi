@@ -17,6 +17,7 @@ This code repository contains a project developed in Object Pascal language unde
 ### Dev Days of Summer 2024
 
 * [Make games in Delphi (2024 edition)](https://www.youtube.com/live/M7DcEDbuESQ?feature=shared&t=3911) (live session during the conference, in English)
+* [Faites des jeux en Delphi (v2024)](https://serialstreameur.fr/faites-des-jeux-en-delphi-edition-2024.html) (in French)
 
 ### Twitch
 
