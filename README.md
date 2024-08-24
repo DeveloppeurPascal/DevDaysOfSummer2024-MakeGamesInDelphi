@@ -23,9 +23,7 @@ This code repository contains a project developed in Object Pascal language unde
 
 Follow my development streams of software, video games, mobile applications and websites on [my Twitch channel](https://www.twitch.tv/patrickpremartin) or as replays on [Serial Streameur](https://serialstreameur.fr/dev-days-of-summer-2024.html) mostly in French.
 
-## Sample projects
-
-### The Quiz
+## Sample project: The Quiz
 
 ![screen capture of a question with game controller detected](images/TheQuiz-Question-Gamepad-500x282.jpg)
 

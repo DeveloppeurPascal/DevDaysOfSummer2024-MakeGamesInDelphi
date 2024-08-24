@@ -23,9 +23,7 @@ Ce dépôt de code contient un projet développé en langage Pascal Objet sous D
 
 Suivez mes streams de développement de logiciels, jeux vidéo, applications mobiles et sites web sur [ma chaîne Twitch](https://www.twitch.tv/patrickpremartin) ou en rediffusion sur [Serial Streameur](https://serialstreameur.fr/dev-days-of-summer-2024.html) la plupart du temps en français.
 
-## Exemples de projets
-
-### The Quiz
+## Exemple de projet : The Quiz
 
 ![capture d'écran d'une question avec un contrôleur de jeu détecté](images/TheQuiz-Question-Gamepad-500x282.jpg)
 
