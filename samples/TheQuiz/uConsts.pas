@@ -19,7 +19,7 @@
 /// <Dev Days of Summer> 2024 online conference.
 ///
 /// The projects are based on the "Gamolf FMX Game Template" you can find at
-/// https://gametemplate.developpeur-pascal.fr/
+/// https://fmxgamestarterkit.developpeur-pascal.fr/
 ///
 /// ***************************************************************************
 ///
@@ -33,8 +33,8 @@
 /// https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi
 ///
 /// ***************************************************************************
-/// File last update : 2024-08-11T11:54:12.000+02:00
-/// Signature : ce966788f2e89b62af914a5b489e077ed87b6c3f
+/// File last update : 2024-08-24T12:18:06.000+02:00
+/// Signature : ff1b71ef8dbe382eacd785fbf51122c44a8ce176
 /// ***************************************************************************
 /// </summary>
 
