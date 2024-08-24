@@ -33,12 +33,7 @@ This program is a simple quiz game with a questions generator.
 
 Source file is available from [this folder](samples/TheQuiz).
 
-Installers are available if you want to test it without compiling the project :
-
-* [Windows 32 bits](samples-installers/DDoS2024QuizSample-Win32-setup.zip)
-* [Windows 64 bits](samples-installers/DDoS2024QuizSample-Win64-setup.zip)
-* [macOS with Intel processor](samples-installers/DDoS2024QuizSample-MacIntel.zip)
-* [macOS with Apple Silicon M1 processor and later](samples-installers/DDoS2024QuizSample-MacM1.zip)
+To test this game, download the installer from [the project page on itch.io](https://gamolf.itch.io/gamolf-fmx-game-starter-kit-demo-video-games), where you'll also find the other demo video games in the [starter kit](https://fmxgamestarterkit.developpeur-pascal.fr/).
 
 ## Source code installation
 
