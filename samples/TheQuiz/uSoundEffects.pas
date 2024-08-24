@@ -90,8 +90,7 @@ end;
 class procedure TSoundEffects.RegisterSounds;
 var
   Sound: TSoundEffectType;
-  Folder: string;
-  FileName: string;
+  Folder, FileName, FilePath: string;
 begin
 {$IF defined(ANDROID)}
   // deploy in .\assets\internal\
@@ -131,8 +130,12 @@ begin
     else
       exit;
     end;
-    if not FileName.isempty then
-      TSoundList.Current.add(ord(Sound), tpath.combine(Folder, FileName));
+    if (not FileName.isempty) then
+    begin
+      FilePath := tpath.combine(Folder, FileName);
+      if tfile.exists(FilePath) then
+        TSoundList.Current.add(ord(Sound), FilePath);
+    end;
   end;
   TSoundList.Current.Volume := tconfig.Current.SoundEffectsVolume;
 end;
