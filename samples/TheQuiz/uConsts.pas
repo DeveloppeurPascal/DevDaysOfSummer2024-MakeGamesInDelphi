@@ -46,10 +46,10 @@ uses
   System.Types;
 
 const
-  CAboutVersionNumber = '1.2';
-  CAboutVersionDate = '20240816';
+  CAboutVersionNumber = '1.3';
+  CAboutVersionDate = '20240824';
   CAboutGameTitle = 'The Quiz !!!';
-  CAboutCopyright = '2024 Patrick Prémartin'; // 2024 your name or anything else
+  CAboutCopyright = '2024 Patrick Prémartin';
   CAboutGameURL =
     'https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi';
   CDefaultLanguage = 'en';
@@ -82,39 +82,54 @@ var
 implementation
 
 uses
+  System.Classes,
   System.SysUtils;
 
 initialization
 
-if CAboutGameTitle.Trim.IsEmpty then
-  raise Exception.Create
-    ('Please give a title to your game in CAboutGameTitle !');
+try
+  if CAboutGameTitle.Trim.IsEmpty then
+    raise Exception.Create
+      ('Please give a title to your game in CAboutGameTitle !');
 
-if CEditorFolderName.Trim.IsEmpty then
-  raise Exception.Create
-    ('Please give an editor folder name in CEditorFolderName !');
+  if CEditorFolderName.Trim.IsEmpty then
+    raise Exception.Create
+      ('Please give an editor folder name in CEditorFolderName !');
 
-if CGameFolderName.Trim.IsEmpty then
-  raise Exception.Create('Please give a game folder name in CGameFolderName !');
+  if CGameFolderName.Trim.IsEmpty then
+    raise Exception.Create
+      ('Please give a game folder name in CGameFolderName !');
 
-if CDefaultLanguage.Trim.IsEmpty then
-  raise Exception.Create
-    ('Please specify a default language ISO code in CDefaultLanguage !');
+  if CDefaultLanguage.Trim.IsEmpty then
+    raise Exception.Create
+      ('Please specify a default language ISO code in CDefaultLanguage !');
 
-if (CDefaultLanguage <> CDefaultLanguage.Trim.ToLower) then
-  raise Exception.Create('Please use "' + CDefaultLanguage.Trim.ToLower +
-    '" as CDefaultLanguage value.');
+  if (CDefaultLanguage <> CDefaultLanguage.Trim.ToLower) then
+    raise Exception.Create('Please use "' + CDefaultLanguage.Trim.ToLower +
+      '" as CDefaultLanguage value.');
 
 {$IFDEF RELEASE}
-if (CGameGUID = '{48AD6D06-1BED-4F33-ADCA-267E12D74417}') then
-  raise Exception.Create('Wrong GUID. Change it in game settings !');
+  if (CGameGUID = '{48AD6D06-1BED-4F33-ADCA-267E12D74417}') then
+    raise Exception.Create('Wrong GUID. Change it in game settings !');
 {$ENDIF}
 {$IFDEF DEBUG}
-// ReportMemoryLeaksOnShutdown := true;
+  ReportMemoryLeaksOnShutdown := true;
 {$ENDIF}
 {$IF Defined(RELEASE)}
 {$I '..\..\_PRIVATE\src\ConfigFileXORKey.inc'}
 {$I '..\..\_PRIVATE\src\GameDataFileXORKey.inc'}
 {$ENDIF}
+except
+  on e: Exception do
+  begin
+    var
+    s := e.message;
+    tthread.forcequeue(nil,
+      procedure
+      begin
+        raise Exception.Create(s);
+      end);
+  end;
+end;
 
 end.
