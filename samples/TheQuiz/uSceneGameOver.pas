@@ -19,7 +19,7 @@
 /// <Dev Days of Summer> 2024 online conference.
 ///
 /// The projects are based on the "Gamolf FMX Game Template" you can find at
-/// https://gametemplate.developpeur-pascal.fr/
+/// https://fmxgamestarterkit.developpeur-pascal.fr/
 ///
 /// ***************************************************************************
 ///
@@ -33,8 +33,8 @@
 /// https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi
 ///
 /// ***************************************************************************
-/// File last update : 2024-08-10T13:23:46.000+02:00
-/// Signature : 5f2c17f867ec98eb06cbbad9dba3400f8c7062af
+/// File last update : 2025-05-09T13:40:20.000+02:00
+/// Signature : eef38d37a021b55f1a7107e2465f98d38850e093
 /// ***************************************************************************
 /// </summary>
 
@@ -74,7 +74,6 @@ implementation
 {$R *.fmx}
 
 uses
-  System.Messaging,
   uScene,
   uConsts,
   uUIElements,
@@ -88,7 +87,7 @@ uses
 procedure TSceneGameOverWin.btnBackClick(Sender: TObject);
 begin
   TSoundEffects.StopAll;
-  tscene.Current := TSceneType.Menu;
+  TScene.Current := TSceneType.Menu;
 end;
 
 procedure TSceneGameOverWin.ShowScene;
@@ -113,18 +112,6 @@ end;
 
 initialization
 
-TMessageManager.DefaultManager.SubscribeToMessage(TSceneFactory,
-  procedure(const Sender: TObject; const Msg: TMessage)
-  var
-    NewScene: TSceneGameOverWin;
-  begin
-    if (Msg is TSceneFactory) and
-      ((Msg as TSceneFactory).SceneType = TSceneType.GameOver) then
-    begin
-      NewScene := TSceneGameOverWin.Create(application.mainform);
-      NewScene.Parent := application.mainform;
-      tscene.RegisterScene(TSceneType.GameOver, NewScene);
-    end;
-  end);
+TScene.RegisterScene<TSceneGameOverWin>(TSceneType.GameOver);
 
 end.

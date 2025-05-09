@@ -19,7 +19,7 @@
 /// <Dev Days of Summer> 2024 online conference.
 ///
 /// The projects are based on the "Gamolf FMX Game Template" you can find at
-/// https://gametemplate.developpeur-pascal.fr/
+/// https://fmxgamestarterkit.developpeur-pascal.fr/
 ///
 /// ***************************************************************************
 ///
@@ -33,8 +33,8 @@
 /// https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi
 ///
 /// ***************************************************************************
-/// File last update : 2024-08-10T13:23:32.000+02:00
-/// Signature : 211ce5732a94ae98ba9781843d3ebf94034b02b1
+/// File last update : 2025-05-09T13:40:12.000+02:00
+/// Signature : a60b888feeefb15bb330d5197e678ce9c9aff696
 /// ***************************************************************************
 /// </summary>
 
@@ -83,7 +83,6 @@ implementation
 {$R *.fmx}
 
 uses
-  System.Messaging,
   uScene,
   uGameData,
   uConsts,
@@ -158,18 +157,26 @@ end;
 
 initialization
 
-TMessageManager.DefaultManager.SubscribeToMessage(TSceneFactory,
-  procedure(const Sender: TObject; const Msg: TMessage)
-  var
-    NewScene: TSceneHome;
-  begin
-    if (Msg is TSceneFactory) and
-      ((Msg as TSceneFactory).SceneType = TSceneType.Menu) then
-    begin
-      NewScene := TSceneHome.Create(application.mainform);
-      NewScene.Parent := application.mainform;
-      TScene.RegisterScene(TSceneType.Menu, NewScene);
-    end;
-  end);
+// **********
+// * Scene registration before May 2025 :
+
+// TMessageManager.DefaultManager.SubscribeToMessage(TSceneFactory,
+// procedure(const Sender: TObject; const Msg: TMessage)
+// var
+// NewScene: TSceneHome;
+// begin
+// if (Msg is TSceneFactory) and
+// ((Msg as TSceneFactory).SceneType = TSceneType.Menu) then
+// begin
+// NewScene := TSceneHome.Create(application.mainform);
+// NewScene.Parent := application.mainform;
+// TScene.RegisterScene(TSceneType.Menu, NewScene);
+// end;
+// end);
+
+// **********
+// * Scene registration since May 2025 :
+
+TScene.RegisterScene<TSceneHome>(TSceneType.Menu);
 
 end.

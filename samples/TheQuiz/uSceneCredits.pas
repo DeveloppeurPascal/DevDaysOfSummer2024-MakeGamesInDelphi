@@ -19,7 +19,7 @@
 /// <Dev Days of Summer> 2024 online conference.
 ///
 /// The projects are based on the "Gamolf FMX Game Template" you can find at
-/// https://gametemplate.developpeur-pascal.fr/
+/// https://fmxgamestarterkit.developpeur-pascal.fr/
 ///
 /// ***************************************************************************
 ///
@@ -33,8 +33,8 @@
 /// https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi
 ///
 /// ***************************************************************************
-/// File last update : 2024-08-10T13:23:52.000+02:00
-/// Signature : 0cfff44d026c758f509c08ed4b7ea4ce6b4ae7b3
+/// File last update : 2025-05-09T13:40:34.000+02:00
+/// Signature : 61506c4031f3238b35cc696c1e07a650798dbe70
 /// ***************************************************************************
 /// </summary>
 
@@ -75,7 +75,6 @@ implementation
 {$R *.fmx}
 
 uses
-  System.Messaging,
   uScene,
   uConsts,
   uDMAboutBox,
@@ -112,18 +111,6 @@ end;
 
 initialization
 
-TMessageManager.DefaultManager.SubscribeToMessage(TSceneFactory,
-  procedure(const Sender: TObject; const Msg: TMessage)
-  var
-    NewScene: TSceneCredits;
-  begin
-    if (Msg is TSceneFactory) and
-      ((Msg as TSceneFactory).SceneType = TSceneType.Credits) then
-    begin
-      NewScene := TSceneCredits.Create(application.mainform);
-      NewScene.Parent := application.mainform;
-      tscene.RegisterScene(TSceneType.Credits, NewScene);
-    end;
-  end);
+tscene.RegisterScene<TSceneCredits>(TSceneType.Credits);
 
 end.

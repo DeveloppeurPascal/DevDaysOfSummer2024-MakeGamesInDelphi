@@ -19,7 +19,7 @@
 /// <Dev Days of Summer> 2024 online conference.
 ///
 /// The projects are based on the "Gamolf FMX Game Template" you can find at
-/// https://gametemplate.developpeur-pascal.fr/
+/// https://fmxgamestarterkit.developpeur-pascal.fr/
 ///
 /// ***************************************************************************
 ///
@@ -33,8 +33,8 @@
 /// https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi
 ///
 /// ***************************************************************************
-/// File last update : 2024-08-11T19:09:50.000+02:00
-/// Signature : 3eb3aa7642b2d591fbbbfe1bc594890aabed7e67
+/// File last update : 2025-05-09T13:40:02.000+02:00
+/// Signature : 19bad64a170afda5ead306d644183b276a1df0fd
 /// ***************************************************************************
 /// </summary>
 
@@ -72,7 +72,6 @@ implementation
 {$R *.fmx}
 
 uses
-  System.Messaging,
   uScene,
   uConsts;
 
@@ -114,18 +113,6 @@ end;
 
 initialization
 
-TMessageManager.DefaultManager.SubscribeToMessage(TSceneFactory,
-  procedure(const Sender: TObject; const Msg: TMessage)
-  var
-    NewScene: TSceneSplashScreen;
-  begin
-    if (Msg is TSceneFactory) and
-      ((Msg as TSceneFactory).SceneType = TSceneType.SplashScreen) then
-    begin
-      NewScene := TSceneSplashScreen.Create(application.mainform);
-      NewScene.Parent := application.mainform;
-      TScene.RegisterScene(TSceneType.SplashScreen, NewScene);
-    end;
-  end);
+TScene.RegisterScene<TSceneSplashScreen>(TSceneType.SplashScreen);
 
 end.
