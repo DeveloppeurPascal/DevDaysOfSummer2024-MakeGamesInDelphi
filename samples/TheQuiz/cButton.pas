@@ -19,7 +19,7 @@
 /// <Dev Days of Summer> 2024 online conference.
 ///
 /// The projects are based on the "Gamolf FMX Game Template" you can find at
-/// https://gametemplate.developpeur-pascal.fr/
+/// https://fmxgamestarterkit.developpeur-pascal.fr/
 ///
 /// ***************************************************************************
 ///
@@ -33,8 +33,8 @@
 /// https://github.com/DeveloppeurPascal/DevDaysOfSummer2024-MakeGamesInDelphi
 ///
 /// ***************************************************************************
-/// File last update : 2024-08-11T11:34:12.000+02:00
-/// Signature : b21c7e2f1c3876d16f8eb0488250d7396e67a423
+/// File last update : 2025-05-09T13:41:14.000+02:00
+/// Signature : cbe6657889d3847927ae70eb1be1209a15463ba6
 /// ***************************************************************************
 /// </summary>
 
@@ -86,6 +86,7 @@ type
     procedure DoTranslateTexts(const Sender: TObject; const Msg: TMessage);
     procedure Click; override;
   public
+    function IsClickable: boolean;
     property IsFocused: boolean read FIsFocused write SetIsFocused;
     property IsDown: boolean read FIsDown write SetIsDown;
     property Text: string read FText write SetText;
@@ -177,6 +178,11 @@ end;
 procedure TcadButton.FrameMouseLeave(Sender: TObject);
 begin
   IsDown := false;
+end;
+
+function TcadButton.IsClickable: boolean;
+begin
+  result := true;
 end;
 
 procedure TcadButton.Refresh;
