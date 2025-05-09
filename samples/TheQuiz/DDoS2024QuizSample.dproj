@@ -1,7 +1,7 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <ProjectGuid>{5E1506F3-14E7-40C9-A1B0-AA6F58081723}</ProjectGuid>
-        <ProjectVersion>20.1</ProjectVersion>
+        <ProjectVersion>20.3</ProjectVersion>
         <FrameworkType>FMX</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
@@ -331,7 +331,7 @@
     <PropertyGroup Condition="'$(Base_Linux64)'!=''">
         <DCC_UsePackage>DataSnapServer;fmx;emshosting;DbxCommonDriver;bindengine;FireDACCommonODBC;emsclient;FireDACCommonDriver;Olf.TableDataSync.Pkg;IndyProtocols;RadiantShapesFmx_Design;dbxcds;htmlcomp_xe12;emsedge;inetdb;FireDACSqliteDriver;DbxClientDriver;FireDACASADriver;soapmidas;htmlcompfm_xe12;dbexpress;FireDACInfxDriver;inet;DataSnapCommon;dbrtl;FireDACOracleDriver;CustomIPTransport;FireDACMSSQLDriver;DataSnapIndy10ServerTransport;DataSnapConnectors;FireDACMongoDBDriver;IndySystem;RadiantShapesFmx;FireDACTDataDriver;htmleditfm_xe12;bindcomp;FireDACCommon;DataSnapServerMidas;FireDACODBCDriver;emsserverresource;IndyCore;RESTBackendComponents;rtl;FireDACMySQLDriver;FireDACADSDriver;RESTComponents;dsnapxml;DataSnapClient;htmleditcore_xe12;DataSnapFireDAC;emsclientfiredac;FireDACPgDriver;FireDAC;xmlrtl;dsnap;CloudService;FireDACDb2Driver;DataSnapNativeClient;htmledit_xe12;hclcore_xe12;DatasnapConnectorsFreePascal;soaprtl;soapserver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
         <Debugger_Launcher>/usr/bin/gnome-terminal -- &quot;%debuggee%&quot;</Debugger_Launcher>
-        <Manifest_File>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_OSX64)'!=''">
@@ -340,7 +340,7 @@
         <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <Debugger_Launcher>/usr/X11/bin/xterm -e &quot;%debuggee%&quot;</Debugger_Launcher>
-        <Manifest_File>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
     </PropertyGroup>
@@ -350,7 +350,7 @@
         <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <Debugger_Launcher>/usr/X11/bin/xterm -e &quot;%debuggee%&quot;</Debugger_Launcher>
-        <Manifest_File>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
     </PropertyGroup>
@@ -473,21 +473,21 @@
     <PropertyGroup Condition="'$(Cfg_1_Linux64)'!=''">
         <Icon_MainIcon>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.ico</Icon_MainIcon>
         <Icns_MainIcns>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.icns</Icns_MainIcns>
-        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_OSX64)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <Icon_MainIcon>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.ico</Icon_MainIcon>
         <Icns_MainIcns>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.icns</Icns_MainIcns>
-        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_OSXARM64)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <Icon_MainIcon>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.ico</Icon_MainIcon>
         <Icns_MainIcns>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.icns</Icns_MainIcns>
-        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
@@ -602,14 +602,14 @@
     <PropertyGroup Condition="'$(Cfg_2_Linux64)'!=''">
         <Icon_MainIcon>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.ico</Icon_MainIcon>
         <Icns_MainIcns>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.icns</Icns_MainIcns>
-        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_OSX64)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <Icon_MainIcon>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.ico</Icon_MainIcon>
         <Icns_MainIcns>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.icns</Icns_MainIcns>
-        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
         <BT_BuildType>DeveloperID</BT_BuildType>
         <VerInfo_Build>8</VerInfo_Build>
         <VerInfo_Keys>CFBundleName=$(MSBuildProjectName);CFBundleDisplayName=$(MSBuildProjectName);CFBundleIdentifier=gamolf.fmxgametemplate.$(MSBuildProjectName);CFBundleVersion=1.3.8;CFBundleShortVersionString=1.3;CFBundlePackageType=APPL;CFBundleSignature=????;CFBundleAllowMixedLocalizations=YES;CFBundleExecutable=$(MSBuildProjectName);NSHighResolutionCapable=true;LSApplicationCategoryType=public.app-category.utilities;NSLocationUsageDescription=The reason for accessing the location information of the user;NSContactsUsageDescription=The reason for accessing the contacts;NSCalendarsUsageDescription=The reason for accessing the calendar data;NSRemindersUsageDescription=The reason for accessing the reminders;NSCameraUsageDescription=The reason for accessing the camera;NSMicrophoneUsageDescription=The reason for accessing the microphone;NSMotionUsageDescription=The reason for accessing the accelerometer;NSDesktopFolderUsageDescription=The reason for accessing the Desktop folder;NSDocumentsFolderUsageDescription=The reason for accessing the Documents folder;NSDownloadsFolderUsageDescription=The reason for accessing the Downloads folder;NSNetworkVolumesUsageDescription=The reason for accessing files on a network volume;NSRemovableVolumesUsageDescription=The reason for accessing files on a removable volume;NSSpeechRecognitionUsageDescription=The reason for requesting to send user data to Apple&apos;s speech recognition servers;ITSAppUsesNonExemptEncryption=false;NSBluetoothAlwaysUsageDescription=The reason for accessing the Bluetooth interface</VerInfo_Keys>
@@ -622,7 +622,7 @@
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <Icon_MainIcon>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.ico</Icon_MainIcon>
         <Icns_MainIcns>..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.icns</Icns_MainIcns>
-        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\(vide)</Manifest_File>
+        <Manifest_File>..\..\lib-externes\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\(vide)</Manifest_File>
         <BT_BuildType>DeveloperID</BT_BuildType>
         <VerInfo_Build>4</VerInfo_Build>
         <VerInfo_Keys>CFBundleName=$(MSBuildProjectName);CFBundleDisplayName=$(MSBuildProjectName);CFBundleIdentifier=gamolf.fmxgametemplate.$(MSBuildProjectName);CFBundleVersion=1.3.4;CFBundleShortVersionString=1.3;CFBundlePackageType=APPL;CFBundleSignature=????;CFBundleAllowMixedLocalizations=YES;CFBundleExecutable=$(MSBuildProjectName);NSHighResolutionCapable=true;LSApplicationCategoryType=public.app-category.utilities;NSLocationUsageDescription=The reason for accessing the location information of the user;NSContactsUsageDescription=The reason for accessing the contacts;NSCalendarsUsageDescription=The reason for accessing the calendar data;NSRemindersUsageDescription=The reason for accessing the reminders;NSCameraUsageDescription=The reason for accessing the camera;NSMicrophoneUsageDescription=The reason for accessing the microphone;NSMotionUsageDescription=The reason for accessing the accelerometer;NSDesktopFolderUsageDescription=The reason for accessing the Desktop folder;NSDocumentsFolderUsageDescription=The reason for accessing the Documents folder;NSDownloadsFolderUsageDescription=The reason for accessing the Downloads folder;NSNetworkVolumesUsageDescription=The reason for accessing files on a network volume;NSRemovableVolumesUsageDescription=The reason for accessing files on a removable volume;NSSpeechRecognitionUsageDescription=The reason for requesting to send user data to Apple&apos;s speech recognition servers;ITSAppUsesNonExemptEncryption=false;NSBluetoothAlwaysUsageDescription=The reason for accessing the Bluetooth interface</VerInfo_Keys>
@@ -669,12 +669,12 @@
         <DCCReference Include="..\..\lib-externes\librairies\src\Olf.RTL.CryptDecrypt.pas"/>
         <DCCReference Include="..\..\lib-externes\librairies\src\Olf.RTL.Params.pas"/>
         <DCCReference Include="..\..\lib-externes\librairies\src\Olf.Skia.SVGToBitmap.pas"/>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uDMAboutBox.pas">
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMAboutBox.pas">
             <Form>AboutBox</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uDMAboutBoxLogoStorrage.pas">
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMAboutBoxLogoStorrage.pas">
             <Form>dmAboutBoxLogo</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
@@ -693,14 +693,14 @@
         <DCCReference Include="..\..\lib-externes\Delphi-Game-Engine\src\Gamolf.RTL.UIElements.pas"/>
         <DCCReference Include="..\..\lib-externes\Delphi-Game-Engine\src\iOSapi.GameController.pas"/>
         <DCCReference Include="..\..\lib-externes\Delphi-Game-Engine\src\Macapi.GameController.pas"/>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uTranslate.pas"/>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uConfig.pas"/>
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uTranslate.pas"/>
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uConfig.pas"/>
         <DCCReference Include="uSceneBackground.pas">
             <Form>SceneBackground</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uScene.pas"/>
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uScene.pas"/>
         <DCCReference Include="uSceneMenu.pas">
             <Form>SceneHome</Form>
             <FormType>fmx</FormType>
@@ -721,18 +721,18 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uUIElements.pas"/>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uGameData.pas"/>
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uUIElements.pas"/>
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uGameData.pas"/>
         <DCCReference Include="..\..\lib-externes\librairies\src\Olf.RTL.Streams.pas"/>
         <DCCReference Include="..\..\lib-externes\librairies\src\Olf.RTL.Maths.Conversions.pas"/>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uBackgroundMusic.pas"/>
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uBackgroundMusic.pas"/>
         <DCCReference Include="uSoundEffects.pas"/>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uDMGameControllerCenter.pas">
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMGameControllerCenter.pas">
             <Form>DMGameControllerCenter</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\uDMHelpBarManager.pas">
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMHelpBarManager.pas">
             <Form>HelpBarManager</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
@@ -787,13 +787,13 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\fMain.pas">
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\fMain.pas">
             <Form>frmMain</Form>
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="uSVGBitmapManager.pas"/>
         <DCCReference Include="..\..\assets\kenney_nl\InputPrompts\USVGInputPrompts.pas"/>
-        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\starter-kit-src\_ScenesAncestor.pas">
+        <DCCReference Include="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\_ScenesAncestor.pas">
             <Form>__SceneAncestor</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
@@ -825,7 +825,7 @@
                     <Excluded_Packages Name="$(BDSBIN)\dclofficexp290.bpl">Composants Microsoft Office XP Sample Automation Server Wrapper</Excluded_Packages>
                 </Excluded_Packages>
             </Delphi.Personality>
-            <Deployment Version="4">
+            <Deployment Version="5">
                 <DeployFile LocalName="$(BDS)\Redist\iossimulator\libcgunwind.1.0.dylib" Class="DependencyModule">
                     <Platform Name="iOSSimulator">
                         <Overwrite>true</Overwrite>
@@ -873,54 +873,6 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binandroid32\libsk4d.so" Configuration="Debug" Class="Skia">
-                    <Platform Name="Android">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'=='' and '$(AndroidAppBundle)'=='true'" Required="true" LocalName="$(BDS)\binandroid32\libsk4d.so" Configuration="Debug" Class="Skia">
-                    <Platform Name="Android64">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binandroid32\libsk4d.so" Configuration="Release" Class="Skia">
-                    <Platform Name="Android">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'=='' and '$(AndroidAppBundle)'=='true'" Required="true" LocalName="$(BDS)\binandroid32\libsk4d.so" Configuration="Release" Class="Skia">
-                    <Platform Name="Android64">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binandroid64\libsk4d.so" Configuration="Debug" Class="Skia">
-                    <Platform Name="Android64">
-                        <RemoteDir>library\lib\arm64-v8a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binandroid64\libsk4d.so" Configuration="Release" Class="Skia">
-                    <Platform Name="Android64">
-                        <RemoteDir>library\lib\arm64-v8a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binlinux64\libsk4d.so" Configuration="Debug" Class="Skia">
                     <Platform Name="Linux64">
                         <RemoteDir>.\</RemoteDir>
@@ -932,86 +884,6 @@
                 <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binlinux64\libsk4d.so" Configuration="Release" Class="Skia">
                     <Platform Name="Linux64">
                         <RemoteDir>.\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binosx64\libsk4d.dylib" Configuration="Debug" Class="Skia">
-                    <Platform Name="OSX64">
-                        <RemoteDir>Contents\MacOS\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.dylib</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binosx64\libsk4d.dylib" Configuration="Release" Class="Skia">
-                    <Platform Name="OSX64">
-                        <RemoteDir>Contents\MacOS\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.dylib</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binosxarm64\libsk4d.dylib" Configuration="Debug" Class="Skia">
-                    <Platform Name="OSXARM64">
-                        <RemoteDir>Contents\MacOS\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.dylib</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'==''" Required="true" LocalName="$(BDS)\binosxarm64\libsk4d.dylib" Configuration="Release" Class="Skia">
-                    <Platform Name="OSXARM64">
-                        <RemoteDir>Contents\MacOS\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.dylib</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!=''" Required="true" LocalName="$(SKIADIR)\Binary\Shared\Android64\libsk4d.so" Configuration="Debug" Class="Skia">
-                    <Platform Name="Android64">
-                        <RemoteDir>library\lib\arm64-v8a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!=''" Required="true" LocalName="$(SKIADIR)\Binary\Shared\Android64\libsk4d.so" Configuration="Release" Class="Skia">
-                    <Platform Name="Android64">
-                        <RemoteDir>library\lib\arm64-v8a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!=''" Required="true" LocalName="$(SKIADIR)\Binary\Shared\Android\libsk4d.so" Configuration="Debug" Class="Skia">
-                    <Platform Name="Android">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!='' and '$(AndroidAppBundle)'=='true'" Required="true" LocalName="$(SKIADIR)\Binary\Shared\Android\libsk4d.so" Configuration="Debug" Class="Skia">
-                    <Platform Name="Android64">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!=''" Required="true" LocalName="$(SKIADIR)\Binary\Shared\Android\libsk4d.so" Configuration="Release" Class="Skia">
-                    <Platform Name="Android">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!='' and '$(AndroidAppBundle)'=='true'" Required="true" LocalName="$(SKIADIR)\Binary\Shared\Android\libsk4d.so" Configuration="Release" Class="Skia">
-                    <Platform Name="Android64">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
                         <Operation>1</Operation>
                         <RemoteName>libsk4d.so</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -1030,38 +902,6 @@
                         <RemoteDir>.\</RemoteDir>
                         <Operation>1</Operation>
                         <RemoteName>libsk4d.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!=''" Required="true" LocalName="$(SKIADIR)\Binary\Shared\OSX64\libsk4d.dylib" Configuration="Debug" Class="Skia">
-                    <Platform Name="OSX64">
-                        <RemoteDir>Contents\MacOS\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.dylib</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!=''" Required="true" LocalName="$(SKIADIR)\Binary\Shared\OSX64\libsk4d.dylib" Configuration="Release" Class="Skia">
-                    <Platform Name="OSX64">
-                        <RemoteDir>Contents\MacOS\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.dylib</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!=''" Required="true" LocalName="$(SKIADIR)\Binary\Shared\OSXARM64\libsk4d.dylib" Configuration="Debug" Class="Skia">
-                    <Platform Name="OSXARM64">
-                        <RemoteDir>Contents\MacOS\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.dylib</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(SKIADIR)'!=''" Required="true" LocalName="$(SKIADIR)\Binary\Shared\OSXARM64\libsk4d.dylib" Configuration="Release" Class="Skia">
-                    <Platform Name="OSXARM64">
-                        <RemoteDir>Contents\MacOS\</RemoteDir>
-                        <Operation>1</Operation>
-                        <RemoteName>libsk4d.dylib</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -1417,133 +1257,28 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.icns" Configuration="Debug" Class="ProjectOSXResource">
-                    <Platform Name="OSX64">
-                        <RemoteName>DDoS2024QuizSample.icns</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.icns" Configuration="Debug" Class="ProjectOSXResource">
-                    <Platform Name="OSXARM64">
-                        <RemoteName>DDoS2024QuizSample.icns</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.icns" Configuration="Release" Class="ProjectOSXResource">
-                    <Platform Name="OSX64">
-                        <RemoteName>DDoS2024QuizSample.icns</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.icns" Configuration="Release" Class="ProjectOSXResource">
-                    <Platform Name="OSXARM64">
-                        <RemoteName>DDoS2024QuizSample.icns</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Linux64\Release\DDoS2024QuizSample" Configuration="Release" Class="ProjectOutput">
-                    <Platform Name="Linux64">
-                        <RemoteName>DDoS2024QuizSample</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSX64\Debug\DDoS2024QuizSample.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements">
-                    <Platform Name="OSX64">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSX64\Debug\DDoS2024QuizSample.info.plist" Configuration="Debug" Class="ProjectOSXInfoPList">
-                    <Platform Name="OSX64">
-                        <RemoteName>Info.plist</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSX64\Debug\DDoS2024QuizSample" Configuration="Debug" Class="ProjectOutput">
-                    <Platform Name="OSX64">
-                        <RemoteName>DDoS2024QuizSample</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSX64\Release\DDoS2024QuizSample.entitlements" Configuration="Release" Class="ProjectOSXEntitlements">
-                    <Platform Name="OSX64">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSX64\Release\DDoS2024QuizSample.info.plist" Configuration="Release" Class="ProjectOSXInfoPList">
-                    <Platform Name="OSX64">
-                        <RemoteName>Info.plist</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSX64\Release\DDoS2024QuizSample" Configuration="Release" Class="ProjectOutput">
-                    <Platform Name="OSX64">
-                        <RemoteName>DDoS2024QuizSample</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSXARM64\Debug\DDoS2024QuizSample.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements">
-                    <Platform Name="OSXARM64">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSXARM64\Debug\DDoS2024QuizSample.info.plist" Configuration="Debug" Class="ProjectOSXInfoPList">
-                    <Platform Name="OSXARM64">
-                        <RemoteName>Info.plist</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSXARM64\Debug\DDoS2024QuizSample" Configuration="Debug" Class="ProjectOutput">
-                    <Platform Name="OSXARM64">
-                        <RemoteName>DDoS2024QuizSample</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSXARM64\Release\DDoS2024QuizSample.entitlements" Configuration="Release" Class="ProjectOSXEntitlements">
-                    <Platform Name="OSXARM64">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSXARM64\Release\DDoS2024QuizSample.info.plist" Configuration="Release" Class="ProjectOSXInfoPList">
-                    <Platform Name="OSXARM64">
-                        <RemoteName>Info.plist</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="OSXARM64\Release\DDoS2024QuizSample" Configuration="Release" Class="ProjectOutput">
-                    <Platform Name="OSXARM64">
-                        <RemoteName>DDoS2024QuizSample</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
+                <DeployFile LocalName="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.icns" Configuration="Debug" Class="ProjectOSXResource"/>
+                <DeployFile LocalName="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\debuggameicon.icns" Configuration="Debug" Class="ProjectOSXResource"/>
+                <DeployFile LocalName="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.icns" Configuration="Release" Class="ProjectOSXResource"/>
+                <DeployFile LocalName="..\..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\icons\gameicon.icns" Configuration="Release" Class="ProjectOSXResource"/>
+                <DeployFile LocalName="Linux64\Release\DDoS2024QuizSample" Configuration="Release" Class="ProjectOutput"/>
+                <DeployFile LocalName="OSX64\Debug\DDoS2024QuizSample.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements"/>
+                <DeployFile LocalName="OSX64\Debug\DDoS2024QuizSample.info.plist" Configuration="Debug" Class="ProjectOSXInfoPList"/>
+                <DeployFile LocalName="OSX64\Debug\DDoS2024QuizSample" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="OSX64\Release\DDoS2024QuizSample.entitlements" Configuration="Release" Class="ProjectOSXEntitlements"/>
+                <DeployFile LocalName="OSX64\Release\DDoS2024QuizSample.info.plist" Configuration="Release" Class="ProjectOSXInfoPList"/>
+                <DeployFile LocalName="OSX64\Release\DDoS2024QuizSample" Configuration="Release" Class="ProjectOutput"/>
+                <DeployFile LocalName="OSXARM64\Debug\DDoS2024QuizSample.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements"/>
+                <DeployFile LocalName="OSXARM64\Debug\DDoS2024QuizSample.info.plist" Configuration="Debug" Class="ProjectOSXInfoPList"/>
+                <DeployFile LocalName="OSXARM64\Debug\DDoS2024QuizSample" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="OSXARM64\Release\DDoS2024QuizSample.entitlements" Configuration="Release" Class="ProjectOSXEntitlements"/>
+                <DeployFile LocalName="OSXARM64\Release\DDoS2024QuizSample.info.plist" Configuration="Release" Class="ProjectOSXInfoPList"/>
+                <DeployFile LocalName="OSXARM64\Release\DDoS2024QuizSample" Configuration="Release" Class="ProjectOutput"/>
                 <DeployFile LocalName="Toutes les plates-formes\Release\DDoS2024QuizSample" Configuration="Release" Class="ProjectOutput"/>
-                <DeployFile LocalName="Toutes les plates-formes\Release\DDoS2024QuizSample" Configuration="Release" Class="ProjectOutput">
-                    <RemoteName>DDoS2024QuizSample</RemoteName>
-                    <Overwrite>true</Overwrite>
-                </DeployFile>
-                <DeployFile LocalName="Win32\Debug\DDoS2024QuizSample.exe" Configuration="Debug" Class="ProjectOutput">
-                    <Platform Name="Win32">
-                        <RemoteName>DDoS2024QuizSample.exe</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Win32\Release\DDoS2024QuizSample.exe" Configuration="Release" Class="ProjectOutput">
-                    <Platform Name="Win32">
-                        <RemoteName>DDoS2024QuizSample.exe</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Win64\Debug\DDoS2024QuizSample.exe" Configuration="Debug" Class="ProjectOutput">
-                    <Platform Name="Win64">
-                        <RemoteName>DDoS2024QuizSample.exe</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Win64\Release\DDoS2024QuizSample.exe" Configuration="Release" Class="ProjectOutput">
-                    <Platform Name="Win64">
-                        <RemoteName>DDoS2024QuizSample.exe</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
+                <DeployFile LocalName="Win32\Debug\DDoS2024QuizSample.exe" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="Win32\Release\DDoS2024QuizSample.exe" Configuration="Release" Class="ProjectOutput"/>
+                <DeployFile LocalName="Win64\Debug\DDoS2024QuizSample.exe" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="Win64\Release\DDoS2024QuizSample.exe" Configuration="Release" Class="ProjectOutput"/>
                 <DeployClass Name="AdditionalDebugSymbols">
                     <Platform Name="iOSSimulator">
                         <Operation>1</Operation>
@@ -1554,16 +1289,6 @@
                     </Platform>
                     <Platform Name="Win32">
                         <Operation>0</Operation>
-                    </Platform>
-                </DeployClass>
-                <DeployClass Name="AndroidClasses">
-                    <Platform Name="Android">
-                        <RemoteDir>classes</RemoteDir>
-                        <Operation>64</Operation>
-                    </Platform>
-                    <Platform Name="Android64">
-                        <RemoteDir>classes</RemoteDir>
-                        <Operation>64</Operation>
                     </Platform>
                 </DeployClass>
                 <DeployClass Name="AndroidFileProvider">
@@ -1665,6 +1390,16 @@
                     </Platform>
                     <Platform Name="Android64">
                         <RemoteDir>res\values-v31</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashStylesV35">
+                    <Platform Name="Android">
+                        <RemoteDir>res\values-v35</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\values-v35</RemoteDir>
                         <Operation>1</Operation>
                     </Platform>
                 </DeployClass>
